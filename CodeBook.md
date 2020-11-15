@@ -64,7 +64,7 @@ The script cleans and orders the database store in the <code>Dataset</code> fold
 - The database files are downloaded with the <code>download.file</code> function, a temporary file is created that stores the <code>.zip</code> file. 
 "unzip" allows us to extract the information from the temperal file and rename the folder as <code>Dataset</code>
 - The files <code>X_train.txt, X_test.txt, y_train.txt, y_test.txt, subject_train.txt, subject_test.txt, features.txt, 
-activity_labels.txt</code> are read. "containing the data and labels of the characteristics.
+activity_labels.txt</code> are read. Containing the data and labels of the characteristics.
 - The train and test data are joined, and the variables are named, and the values of some data are changed.
 - Extracts only the measurements on the mean and standard deviation for each measurement.
 - The names of the features are changed with the help of the <code>gsub</code> function, for better compression.
